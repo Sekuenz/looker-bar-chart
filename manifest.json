@@ -11,22 +11,11 @@
       "id": "randombarchart",
       "label": "Random Bar Chart",
       "type": "VISUALIZATION",
-
-      /* location of your JS bundle (relative to the manifest URL) */
       "url": "index.js",
-
-      /* optional CSS file */
       "styleUrls": ["style.css"],
-
-      /* property-panel config (we’ll add later; keep null for now) */
-      "configUrl": null,
-
-      /* third-party libs to preload in the iframe */
       "scripts": [
         "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"
       ],
-
-      /* extra metadata required by the validator */
       "visualization": {
         "supportedType": "CHART",
         "usesSvg": false
